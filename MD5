@@ -1,0 +1,16 @@
+4abbda71420a996e96844bed4848dcdf *DESCRIPTION
+4840c1564fd4fb74e8be222c234f29e1 *NAMESPACE
+2c3e9823600eabdd2425621115667652 *R/credsubs.R
+2b4801119c1ecf2e3968a4e6f3d00598 *R/data.R
+165ed9b9e1f914b33c8c421ecd8be975 *data/alzheimers.RData
+e3be67ed93abf420ca12c316ffb77f8d *inst/shiny/alzheimers/config.RData
+0cc666fa07e3778fbed36774b61964b2 *inst/shiny/alzheimers/server.R
+0ac87a4dadcbd87a03b4963f5de4d58b *inst/shiny/alzheimers/ui.R
+59d6a34b8df8e1cb3aba43c778e46b7a *inst/shiny/calc/server.R
+0ac87a4dadcbd87a03b4963f5de4d58b *inst/shiny/calc/ui.R
+2f50d07e3042c8e35a97b26130b5f23c *man/alzheimers.Rd
+5acdae115fb6a5a46fd71a561c59bcd4 *man/build.shiny.calc.Rd
+a205f83bc8d9b11acfc2f39d93e99b9b *man/credsubs.Rd
+6baf9d4b2899849b3e5244ddfa309d13 *man/credsubs.level.Rd
+372f6fcac7c58d7b736b289489e82091 *man/run.shiny.calc.Rd
+8a60586acd59348630c4e90f7a427880 *man/sim.cred.band.Rd
