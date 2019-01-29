@@ -1,12 +1,12 @@
-4abbda71420a996e96844bed4848dcdf *DESCRIPTION
+2bef82d415f5ea410abc983a389eb95c *DESCRIPTION
 4840c1564fd4fb74e8be222c234f29e1 *NAMESPACE
-2c3e9823600eabdd2425621115667652 *R/credsubs.R
+c8b7903d17293c98bd8cad1c366219c3 *R/credsubs.R
 2b4801119c1ecf2e3968a4e6f3d00598 *R/data.R
 165ed9b9e1f914b33c8c421ecd8be975 *data/alzheimers.RData
 e3be67ed93abf420ca12c316ffb77f8d *inst/shiny/alzheimers/config.RData
-0cc666fa07e3778fbed36774b61964b2 *inst/shiny/alzheimers/server.R
+c5d1cfa2124adbf8309b74da6080f351 *inst/shiny/alzheimers/server.R
 0ac87a4dadcbd87a03b4963f5de4d58b *inst/shiny/alzheimers/ui.R
-59d6a34b8df8e1cb3aba43c778e46b7a *inst/shiny/calc/server.R
+a0924629bba45f7ac07dddf41a7787a3 *inst/shiny/calc/server.R
 0ac87a4dadcbd87a03b4963f5de4d58b *inst/shiny/calc/ui.R
 2f50d07e3042c8e35a97b26130b5f23c *man/alzheimers.Rd
 5acdae115fb6a5a46fd71a561c59bcd4 *man/build.shiny.calc.Rd
