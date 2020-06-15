@@ -4,11 +4,21 @@
 \alias{credsubs.level}
 \title{Compute the maximum credible levels at which conclusions may be drawn}
 \usage{
-credsubs.level(params, design = NULL, FUN = function(x, params) { params \%*\%
-  t(x) }, threshold = 0, method = c("asymptotic", "quantile"),
-  step.down = TRUE, sides = c("both", "exclusive", "inclusive"),
-  est.FUN = mean, var.FUN = sd, track = numeric(0), verbose = FALSE,
-  z.store = c("ram", "recompute", "disk"))
+credsubs.level(
+  params,
+  design = NULL,
+  FUN = function(x, params) {     params \%*\% t(x) },
+  threshold = 0,
+  method = c("asymptotic", "quantile"),
+  step.down = TRUE,
+  sides = c("both", "exclusive", "inclusive"),
+  est.FUN = mean,
+  var.FUN = sd,
+  point.estimate = NULL,
+  track = numeric(0),
+  verbose = FALSE,
+  z.store = c("ram", "recompute", "disk")
+)
 }
 \arguments{
 \item{params}{A numeric matrix whose rows are draws from the posterior
@@ -39,6 +49,11 @@ surface. Default is \code{mean}.}
 
 \item{var.FUN}{The function used to quantify the variability of the
 regression surface posterior. Default is \code{sd}.}
+
+\item{point.estimate}{If not null, replaces the mean and sets the reference 
+around which the standard error is computed.
+Useful for bootstrapping methods.
+Treated as a row of the \code{params} matrix.}
 
 \item{track}{A numeric vector of indices indicating which rows (default none)
 of the design matrix should have the sample of the corresponding

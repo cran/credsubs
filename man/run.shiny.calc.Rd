@@ -4,8 +4,9 @@
 \alias{run.shiny.calc}
 \title{Run a calculator}
 \usage{
-run.shiny.calc(app.dir = system.file("shiny", "alzheimers", package =
-  "credsubs"))
+run.shiny.calc(
+  app.dir = system.file("shiny", "alzheimers", package = "credsubs")
+)
 }
 \arguments{
 \item{app.dir}{A character string pointing to the application directory.}

@@ -4,10 +4,19 @@
 \alias{sim.cred.band}
 \title{Constructs a simultaneous credible band}
 \usage{
-sim.cred.band(params, design = NULL, FUN = function(x, params) { params \%*\%
-  t(x) }, cred.level = 0.95, method = c("asymptotic", "quantile"),
-  sides = c("both", "upper", "lower"), est.FUN = mean, var.FUN = sd,
-  track = numeric(0), verbose = FALSE)
+sim.cred.band(
+  params,
+  design = NULL,
+  FUN = function(x, params) {     params \%*\% t(x) },
+  cred.level = 0.95,
+  method = c("asymptotic", "quantile"),
+  sides = c("both", "upper", "lower"),
+  est.FUN = mean,
+  var.FUN = sd,
+  point.estimate = NULL,
+  track = numeric(0),
+  verbose = FALSE
+)
 }
 \arguments{
 \item{params}{A numeric matrix whose rows are draws from the posterior
@@ -33,6 +42,11 @@ surface. Default is \code{mean}.}
 
 \item{var.FUN}{The function used to quantify the variability of the
 regression surface posterior. Default is \code{sd}.}
+
+\item{point.estimate}{If not null, replaces the mean and sets the reference 
+around which the standard error is computed.
+Useful for bootstrapping methods.
+Treated as a row of the \code{params} matrix.}
 
 \item{track}{A numeric vector of indices indicating which rows (default none)
 of the design matrix should have the sample of the corresponding

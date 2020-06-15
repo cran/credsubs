@@ -4,7 +4,8 @@
 \name{alzheimers}
 \alias{alzheimers}
 \title{Clinical trial data from 369 Alzheimer's disease patients.}
-\format{A data frame with 369 rows and 6 variables:
+\format{
+A data frame with 369 rows and 6 variables:
 \describe{
   \item{Treatment}{treatment assignment}
   \item{Severity}{baseline severity (ADAS-Cog 11)}
@@ -14,7 +15,8 @@
   \item{Carrier}{carrier status of ApoE4 allele}
   \item{Improvement}{baseline severity minus severity at 12 weeks
                      (positive is good)}
-}}
+}
+}
 \source{
 AbbVie, Inc.
 }

@@ -4,9 +4,14 @@
 \alias{build.shiny.calc}
 \title{Build a credible subset calculator}
 \usage{
-build.shiny.calc(credsubs.level, cov.space, name = "calc", dir = ".",
+build.shiny.calc(
+  credsubs.level,
+  cov.space,
+  name = "calc",
+  dir = ".",
   title = "Credible Subsets Calculator",
-  instructions = "Select a covariate point.")
+  instructions = "Select a covariate point."
+)
 }
 \arguments{
 \item{credsubs.level}{An object of class \code{credsubs.level}.}

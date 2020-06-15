@@ -62,7 +62,6 @@ shinyServer(function(input, output) {
       }
       
     }
-    print(matches)
     
     if (length(matches) == 0) {
       return("Predictor combination untested.")
@@ -84,5 +83,9 @@ shinyServer(function(input, output) {
                "%</b>. ",
                "At higher credible levels, no conclusion may be drawn."))
     }
+  })
+  
+  observeEvent(input$closeApp, {
+    stopApp()
   })
 })
