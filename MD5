@@ -1,9 +1,10 @@
-56e261d14b44056369058b1d5c7d3c36 *DESCRIPTION
+6bced75b47abdd337c16d755ba0ee341 *DESCRIPTION
 4840c1564fd4fb74e8be222c234f29e1 *NAMESPACE
 7737eb9feacacd2b27722d7bfc915c44 *R/credsubs.R
 2b4801119c1ecf2e3968a4e6f3d00598 *R/data.R
-17b06bcd5b8e0bec6411014615859e41 *build/vignette.rds
+bbeaba348fb400fde8ab47cdb0772cfe *build/vignette.rds
 165ed9b9e1f914b33c8c421ecd8be975 *data/alzheimers.RData
+42c1cbc75b83987fa947ead6d7f750f9 *inst/CITATION
 03116677c2524313bbe32ed623b79d9a *inst/doc/credsubs-vignette.pdf
 4da8267a3013136f008e502ae7273838 *inst/doc/credsubs-vignette.pdf.asis
 e3be67ed93abf420ca12c316ffb77f8d *inst/shiny/alzheimers/config.RData
@@ -18,3 +19,4 @@ b83075be7646808c133fc2483f7cde3c *man/build.shiny.calc.Rd
 173660aed2bf488bb049624832836e64 *man/run.shiny.calc.Rd
 5b46df8f1a9dbbb41cf77c15eb3a7b6b *man/sim.cred.band.Rd
 4da8267a3013136f008e502ae7273838 *vignettes/credsubs-vignette.pdf.asis
+05999d127660e66b5d91eacf06e67b5c *vignettes/vignette.pdf
